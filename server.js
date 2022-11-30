@@ -27,5 +27,5 @@ app.get('/magic/:question', (req, res) => {
 
 
 app.listen(port, () => {
-    console.log(``)
+    console.log(`listening on port: ${port}`)
 })
